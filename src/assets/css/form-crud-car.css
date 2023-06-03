@@ -1,0 +1,95 @@
+/* Card Form */
+.card-form-container {
+  width: 100%;
+  padding: 16px;
+}
+/* Form */
+.container-form-add {
+  height: calc(100vh - 200px);
+}
+.form-group-input {
+  gap: 8px;
+}
+.label-input-form {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  width: 147px;
+  color: #3C3C3C !important;
+}
+.sup-star {
+  color: #FA2C5A;
+  font-size: 12px !important;
+  margin-top: 8px;
+}
+.input-field-form::placeholder {
+  color: #8A8A8A;
+}
+.input-field-form {
+  width: 339px;
+  height: 36px;
+  border-radius: 2px !important;
+  border: 1px solid #D0D0D0 !important;
+  padding: 9px 12px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+}
+.input-field-form::-webkit-outer-spin-button,
+.input-field-form::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-field-form[type=number] {
+  -moz-appearance: textfield;
+}
+.container-selectbox {
+  position: relative;
+}
+.wrapper-down-arrow {
+  position: absolute;
+  right: 16px;
+  top: 0;
+  z-index: 2;
+  height: 36px;
+  font-size: 12px;
+  color: #8A8A8A;
+}
+.input-field-form.select {
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  appearance:none;
+}
+.form-text-info {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 10px !important;
+  line-height: 1 !important;
+}
+.container-action-btn-form {
+  gap: 16px;
+}
+.btn-cancel,
+.btn-submit {
+  border-radius: 2px !important;
+  padding: 8px 12px !important;
+  height: 36px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+}
+.btn-cancel {
+  background-color: #fff !important;
+  border: 1px solid #0D28A6 !important;
+  color: #0D28A6 !important;
+}
+.btn-submit {
+  background-color: #0D28A6 !important;
+  border: 1px solid transparent !important;
+}

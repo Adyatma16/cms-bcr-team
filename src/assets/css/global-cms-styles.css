@@ -1,0 +1,25 @@
+.title-page {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* Breadcrumb */
+.breadcrumb-item+.breadcrumb-item::before {
+  font-family: FontAwesome;
+  content: "\f054" !important;
+  color: #000 !important;
+}
+.breadcrumb-item {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000 !important;
+}
+.breadcrumb-item.active {
+  font-weight: 300;
+  color: #222222 !important;
+}
